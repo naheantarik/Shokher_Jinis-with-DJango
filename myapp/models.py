@@ -8,8 +8,11 @@ class Product(models.Model):
     description = models.CharField(max_length=100, blank=True)
     date_create = models.DateTimeField(auto_now_add=True)
 
+    def get_all_product():
+
     def __str__(self):
         return self.name
+    
     
 
 class Member(models.Model):
