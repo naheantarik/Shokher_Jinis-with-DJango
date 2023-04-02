@@ -7,4 +7,4 @@ def home(request):
     product = Product.get_all_product()
 
 
-    return render(request, 'dashboard.html', {'product': product})
+    return render(request, 'dashboard.html', {'products': product})
