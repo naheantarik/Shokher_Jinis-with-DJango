@@ -1,5 +1,7 @@
 {% extends 'index.html' %} {% block content %}
 
+<h4>Hello</h4>
+
 <div>
   {% for product in products %}
   <div class="card" style="width: 18rem">
@@ -10,5 +12,7 @@
       <a href="#" class="btn btn-primary">Add To Curt</a>
     </div>
   </div>
+  {% endfor %}
 </div>
-{% endfor %} {% endblock %}
+
+{% endblock %}
